@@ -1,0 +1,22 @@
+uuid: ddcea3c2-f818-4fc5-8158-50b0a2f96429
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fluffiness
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: fluffiness_breadcrumbs
+theme: fluffiness
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

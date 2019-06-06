@@ -1,0 +1,20 @@
+uuid: 482e18aa-d2aa-4c9b-8c46-411a79e63163
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fluffiness
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: fluffiness_local_actions
+theme: fluffiness
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

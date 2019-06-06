@@ -1,0 +1,22 @@
+uuid: a5a6ebe2-eaf6-4762-80be-3ef1f16f24d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - fluffiness
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: fluffiness_help
+theme: fluffiness
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

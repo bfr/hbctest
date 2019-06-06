@@ -1,0 +1,22 @@
+uuid: a8f33c3f-4faa-4ab6-8167-9f4a7748bb82
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fluffiness
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: fluffiness_messages
+theme: fluffiness
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

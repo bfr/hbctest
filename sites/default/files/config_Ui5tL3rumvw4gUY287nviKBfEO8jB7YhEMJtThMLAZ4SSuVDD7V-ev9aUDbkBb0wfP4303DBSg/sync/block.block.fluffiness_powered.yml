@@ -1,0 +1,22 @@
+uuid: 3b3d92d3-5149-41f9-b20e-54c06f0ceaae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fluffiness
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: fluffiness_powered
+theme: fluffiness
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
